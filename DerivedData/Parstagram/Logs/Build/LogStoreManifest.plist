@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>A7BB9769-FCA2-4EB0-98E8-89C20049FB7A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A7BB9769-FCA2-4EB0-98E8-89C20049FB7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parstagram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parstagram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Parstagram</string>
+			<key>timeStartedRecording</key>
+			<real>670022766.91218805</real>
+			<key>timeStoppedRecording</key>
+			<real>670022766.95937097</real>
+			<key>title</key>
+			<string>Build Parstagram</string>
+			<key>uniqueIdentifier</key>
+			<string>A7BB9769-FCA2-4EB0-98E8-89C20049FB7A</string>
+		</dict>
+		<key>F0669890-2E35-45F5-A426-B7BA80A3D5DC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F0669890-2E35-45F5-A426-B7BA80A3D5DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Parstagram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Parstagram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Parstagram</string>
+			<key>timeStartedRecording</key>
+			<real>670022734.73940504</real>
+			<key>timeStoppedRecording</key>
+			<real>670022734.85315204</real>
+			<key>title</key>
+			<string>Build Parstagram</string>
+			<key>uniqueIdentifier</key>
+			<string>F0669890-2E35-45F5-A426-B7BA80A3D5DC</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
