@@ -10,6 +10,7 @@
 		5B96625DB84F06C904C00ADA /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EBBA771689C845198A6309 /* Pods_ParstagramTests.framework */; };
 		81C29C9A6278EE99E9DF9723 /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A16151015DF813919C0A50 /* Pods_Parstagram_ParstagramUITests.framework */; };
 		948FD3B4DCB37D60DE341D2E /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5517C09EC879B66C1038696 /* Pods_Parstagram.framework */; };
+		E75542DE27F7C45000F50AFF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75542DD27F7C45000F50AFF /* CommentCell.swift */; };
 		E75C079D27EFBF7800D460F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C079C27EFBF7800D460F6 /* LoginViewController.swift */; };
 		E75C07A127EFBFA300D460F6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C07A027EFBFA300D460F6 /* FeedViewController.swift */; };
 		E75C07A527EFCC5800D460F6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C07A427EFCC5800D460F6 /* CameraViewController.swift */; };
@@ -22,7 +23,6 @@
 		E786160227EFBD610026BA51 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786160127EFBD610026BA51 /* ParstagramTests.swift */; };
 		E786160C27EFBD610026BA51 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786160B27EFBD610026BA51 /* ParstagramUITests.swift */; };
 		E786160E27EFBD610026BA51 /* ParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786160D27EFBD610026BA51 /* ParstagramUITestsLaunchTests.swift */; };
-		E786161C27EFBEEF0026BA51 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = E786161B27EFBEEF0026BA51 /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +52,7 @@
 		9E259C0F617B2EEB874C8831 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		A5517C09EC879B66C1038696 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAE58C195FC1A023FB9D782 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
+		E75542DD27F7C45000F50AFF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		E75C079C27EFBF7800D460F6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E75C07A027EFBFA300D460F6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E75C07A427EFCC5800D460F6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E786161C27EFBEEF0026BA51 /* ArgumentParser in Frameworks */,
 				948FD3B4DCB37D60DE341D2E /* Pods_Parstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +150,7 @@
 				E78615EA27EFBD600026BA51 /* AppDelegate.swift */,
 				E78615EC27EFBD600026BA51 /* SceneDelegate.swift */,
 				E78615F027EFBD600026BA51 /* Main.storyboard */,
+				E75542DD27F7C45000F50AFF /* CommentCell.swift */,
 				E78615F327EFBD610026BA51 /* Assets.xcassets */,
 				E78615F527EFBD610026BA51 /* LaunchScreen.storyboard */,
 				E78615F827EFBD610026BA51 /* Info.plist */,
@@ -197,7 +198,6 @@
 			);
 			name = Parstagram;
 			packageProductDependencies = (
-				E786161B27EFBEEF0026BA51 /* ArgumentParser */,
 			);
 			productName = Parstagram;
 			productReference = E78615E727EFBD600026BA51 /* Parstagram.app */;
@@ -276,6 +276,9 @@
 			mainGroup = E78615DE27EFBD600026BA51;
 			packageReferences = (
 				E786161A27EFBEEF0026BA51 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				E7C2641927F7E99F00256C81 /* XCRemoteSwiftPackageReference "MessageInputBar" */,
+				E7C2641A27F7E9AD00256C81 /* XCRemoteSwiftPackageReference "MessageInputBar" */,
+				E731934627F7E9F800DDBCA0 /* XCRemoteSwiftPackageReference "MessageInputBar" */,
 			);
 			productRefGroup = E78615E827EFBD600026BA51 /* Products */;
 			projectDirPath = "";
@@ -429,6 +432,7 @@
 				E75C07A127EFBFA300D460F6 /* FeedViewController.swift in Sources */,
 				E78615ED27EFBD600026BA51 /* SceneDelegate.swift in Sources */,
 				E75C07A927EFEA8900D460F6 /* PostCell.swift in Sources */,
+				E75542DE27F7C45000F50AFF /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +782,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E731934627F7E9F800DDBCA0 /* XCRemoteSwiftPackageReference "MessageInputBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageInputBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 		E786161A27EFBEEF0026BA51 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
@@ -786,15 +798,23 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E786161B27EFBEEF0026BA51 /* ArgumentParser */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E786161A27EFBEEF0026BA51 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
-			productName = ArgumentParser;
+		E7C2641927F7E99F00256C81 /* XCRemoteSwiftPackageReference "MessageInputBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageInputBar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
 		};
-/* End XCSwiftPackageProductDependency section */
+		E7C2641A27F7E9AD00256C81 /* XCRemoteSwiftPackageReference "MessageInputBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageInputBar";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = E78615DF27EFBD600026BA51 /* Project object */;
 }

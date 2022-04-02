@@ -7,6 +7,8 @@
 
 import UIKit
 import Parse
+import MessageInputBar
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
