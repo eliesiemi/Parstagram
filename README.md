@@ -23,8 +23,7 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://vimeo.com/695116527' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://vimeo.com/695116527
-
+https://user-images.githubusercontent.com/69220191/161435705-b1a59ff2-f262-4a92-b630-b0986172ee9d.mov
 
 
 
